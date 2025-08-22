@@ -4,4 +4,8 @@ public class PagamentoCartao implements Pagamento {
     public void processarPagamento() {
 
     }
+
+    public void adicionarCartao() {
+
+    }
 }
