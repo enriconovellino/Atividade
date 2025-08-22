@@ -1,17 +1,5 @@
-public class Banco implements Pix, Boleto, Cartao{
-    @Override
-    public void processarPagamentoBoleto() {
+public class Banco {
+    public void executarPagamento(Pagamento pagamento) {
 
     }
-
-    @Override
-    public void processarPagamentoCartao() {
-
-    }
-
-    @Override
-    public void processarPagamentoPix() {
-
-    } //Só um teste
-
 }
